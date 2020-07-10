@@ -10,15 +10,25 @@ Specifically, DCFST with resnet-18, i.e. DCFST-18, obtains the AUC score of 0.70
 Thanks for the handsome work, ATOM, by Martin Danelljan. This project is highly based on pytracking (https://github.com/visionml/pytracking). Particularly, it is based on the early version (pytorch 0.4.1) of pytracking (https://github.com/visionml/pytracking/tree/pytorch041). Therefore, if there are any missing documents and operation descriptions due to my carelessness, please refer to the corresponding section in pytracking.
 
 Requirements:
+
 Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz CPU
+
 TITAN X(Pascal) or TITAN 1080Ti GPU
+
 8.0 CUDA
+
 numpy  1.16.2
+
 numpy-base  1.16.2
+
 python  3.7.3
+
 torchvision  0.2.1
+
 pytorch  0.4.1
+
 Pillow 5.4.1
+
 pandas 1.0.3
 
 *** NOTE *** We try our best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, we make a small change to ATOM. For users, please ensure the versions of softwares and environments you used are the same as above. BTW, there may be more version requirements, those are all we can think of so far.
