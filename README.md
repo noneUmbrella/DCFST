@@ -1,7 +1,7 @@
 # DCFST
 Learning Feature Embeddings for Discriminant Model based Tracking
 
-Accepted by ECCV2018.
+Accepted by ECCV2020.
 
 DCFST is a simple yet effective tracker. This project provides the training and test codes of DCFST. It can produce the accuracy of DCFST on six popular tracking benchmarks, OTB2015, NfS, TrackingNet, GOT10k, VOT2018, and VOT2019. (I will gradually add parts of the code as soon as I have free time to deal with this project.)
 
