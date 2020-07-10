@@ -12,6 +12,7 @@ Thanks for the handsome work, ATOM, by Martin Danelljan. This project is highly 
 Please don't be confused by what we call the DCFST as SBDT in the code. In fact, I originally named the article of this work as "A Siample Baseline for Tracking", thus I write code with the algorithm name SBDT. DCFST was the later changed article and algorithm name, however, I do not change the name from SBDT to in the code, probably because I was lazy
 
 Download the weights of DCFST-18: https://drive.google.com/file/d/1MdTSAEOlsb-MK4VsWM9RuT7ed_FIvDQf/view?usp=sharing
+
 Download the weights of DCFST-50: https://drive.google.com/file/d/12Ctc6oBz52CO6NyCWFOp3rrCxStILrzM/view?usp=sharing
 
 Requirements:
