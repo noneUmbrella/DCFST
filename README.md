@@ -9,6 +9,11 @@ Specifically, DCFST with resnet-18, i.e. DCFST-18, obtains the AUC score of 0.70
 
 Thanks for the handsome work, ATOM, by Martin Danelljan. This project is highly based on pytracking (https://github.com/visionml/pytracking). Particularly, it is based on the early version (pytorch 0.4.1) of pytracking (https://github.com/visionml/pytracking/tree/pytorch041). Therefore, if there are any missing documents and operation descriptions due to my carelessness, please refer to the corresponding section in pytracking.
 
+Please don't be confused by what we call the DCFST as SBDT in the code. In fact, I originally named the article of this work as "A Siample Baseline for Tracking", thus I write code with the algorithm name SBDT. DCFST was the later changed article and algorithm name, however, I do not change the name from SBDT to in the code, probably because I was lazy
+
+Download the weights of DCFST-18: https://drive.google.com/file/d/1MdTSAEOlsb-MK4VsWM9RuT7ed_FIvDQf/view?usp=sharing
+Download the weights of DCFST-50: https://drive.google.com/file/d/12Ctc6oBz52CO6NyCWFOp3rrCxStILrzM/view?usp=sharing
+
 Requirements:
 
     Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz CPU
