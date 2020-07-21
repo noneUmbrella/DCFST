@@ -21,14 +21,16 @@ DCFST is a simple yet effective tracker. This project provides the training and 
 |DCFST-50    |   45.2%  |    -    |         -         |
 
 ## Pretrained Models
+```
 The model of DCFST-18: https://drive.google.com/file/d/1MdTSAEOlsb-MK4VsWM9RuT7ed_FIvDQf/view?usp=sharing
 The model of DCFST-50: https://drive.google.com/file/d/12Ctc6oBz52CO6NyCWFOp3rrCxStILrzM/view?usp=sharing
+```
 
 ## Installation
 Thanks for the handsome work, ATOM, by Martin Danelljan. This project is highly based on pytracking. Particularly, it is based on the early version (pytorch 0.4.1) of pytracking (https://github.com/visionml/pytracking/tree/pytorch041). Therefore, if there are any missing documents and operation descriptions due to my carelessness, please refer to the corresponding section in pytracking.
 
 ## Requirements
-'''
+```
 Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz CPU
 TITAN X(Pascal) OR TITAN 1080Ti GPU
 CUDA 8.0
@@ -38,7 +40,7 @@ python 3.7.3
 torchvision 0.2.1
 pytorch 0.4.1
 opencv-python 4.0.1.24
-'''
+```
 
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
